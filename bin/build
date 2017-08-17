@@ -5,3 +5,6 @@ doc code-of-ethics.md
 
 # Replace title tag
 sed -i -- 's/live-doc/Code of Ethics/g' *.html
+
+# Remove temporary file
+rm index.html--
