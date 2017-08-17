@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Generate index.html
+doc code-of-ethics.md
+
+# Replace title tag
+sed -i -- 's/live-doc/Code of Ethics/g' *.html
