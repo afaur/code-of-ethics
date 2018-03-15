@@ -4,6 +4,6 @@ An ongoing working document to outline how to conduct yourself as part of a univ
 
 ### Build index.html
 ```
-npm install -g Code of Ethics
+npm i -g live-doc
 make build
 ```
